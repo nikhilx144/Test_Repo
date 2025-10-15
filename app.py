@@ -7,4 +7,4 @@ def home():
     return "We have successfully built a project with docker and jenkins!\nA docker image is made every time new changes to the code are pushed upstream (github repo), a docker image of the repo is pushed to dockerhub and finally a docker container is run from the image."
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5100)
+    app.run(host='0.0.0.0', port=8090)

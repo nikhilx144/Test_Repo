@@ -6,6 +6,6 @@ RUN pip install flask
 
 COPY . .
 
-EXPOSE 5100
+EXPOSE 8090
 
 CMD ["python", "app.py"]
